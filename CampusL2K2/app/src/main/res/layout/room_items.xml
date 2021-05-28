@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="10dp"
+    android:background="@drawable/room_backstyle"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="75dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:id="@+id/roomName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="room"
+            android:textSize="25sp"
+            android:textColor="#153647"/>
+    </LinearLayout>
+    <!--<LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+    </LinearLayout>-->
+</LinearLayout>

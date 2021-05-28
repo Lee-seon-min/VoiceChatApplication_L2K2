@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="방 이름"
+        android:id="@+id/targetRoomName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/createRoom"
+        android:text="만들기"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/editbuttonback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!--<Button
+        android:id="@+id/cancelMakeRoom"
+        android:text="돌아가기"
+        android:background="@drawable/editbuttonback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+</LinearLayout>

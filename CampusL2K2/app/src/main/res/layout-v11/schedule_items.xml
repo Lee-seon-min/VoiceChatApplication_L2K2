@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="80dp" android:layout_marginBottom="8dp"
+    android:id="@+id/scheduleBox" android:background="@drawable/scheduleback"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent">
+        <CheckBox
+            android:id="@+id/checkScheduleState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:paddingLeft="45dp"
+                android:textSize="15sp"
+                android:text="스케줄 이름"
+                android:id="@+id/scheduleTitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8">
+            <TextView
+                android:id="@+id/write_time"
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="작성 시간"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="6dp"
+        android:layout_weight="0.5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/deleteSchedule_Button"
+            android:background="#FFFFFF"
+            android:layout_gravity="top"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_cancel_24"/>
+    </LinearLayout>
+</LinearLayout>
