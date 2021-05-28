@@ -288,7 +288,7 @@ public class VoiceChatActivity extends Activity {
     }
     public void startSipStack(){
         mAccountCreator.setUsername(sid);
-        mAccountCreator.setDomain("192.168.35.10:5061");
+        mAccountCreator.setDomain("xxx.xxx.xx.xx:xxxx");
         mAccountCreator.setPassword(sipPw);
         mAccountCreator.setTransport(TransportType.Udp);
 
